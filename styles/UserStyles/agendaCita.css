@@ -1,0 +1,41 @@
+.center-Cita{
+    margin: 100px 0px;
+    
+}
+.center-form{
+    margin: 0 auto;
+    width: 70%;
+    padding: 50px 20px;    
+    
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+}
+.center-form input{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.center label{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.calendar{
+    margin: 0 auto;
+}
+.calendar .class-button{
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: cornflowerblue;
+    border-radius: 15px;
+    color: white;
+    /* color-scheme: blue; */
+}
+.class-button:hover{
+
+    background-color: rgb(92, 92, 240); 
+}

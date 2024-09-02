@@ -1,0 +1,44 @@
+.tarjetas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+    width: 70%;
+    margin: 0 auto;
+}
+.opcion{
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin: 0 auto;
+    padding: 20px;
+}
+.opcion:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 14px 28px rgba(0, 0, 0, 0.2);
+}
+.opcion h1{
+    font-size: 20px;
+}
+.nombre{
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    padding: 50px 0px;
+    gap: 20px ;
+    text-align: center;
+    
+}
+.nombre h1{
+    font-size: 20px;
+}
+.contenedor{
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px 20px;    
+    
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}

@@ -1,0 +1,48 @@
+.center{
+    margin: 100px 0px;
+}
+.center2{
+    margin: 0 auto;
+    width: 500px;
+    padding: 50px 20px;    
+    
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.center input{
+    width: 100%;
+    border: 1px solid #ccc;
+}
+.center label{
+    margin-top: 20px;
+    font-weight: bold;
+}
+.class-button{
+    /* border: 1px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 10px;
+    background-color: cornflowerblue;
+    font-weight: bold;
+    color: white;
+    margin-top: 20px;
+    color-scheme: blue; */
+    width: 100%;
+}
+.class-h3 {
+    font-weight: bold;
+}
+.class-h1{
+    font-weight: bold;
+    font-size: 2rem;
+}
+.title{
+    font-weight: bold;
+    font-size: 2rem;
+    padding-bottom: 20px;
+}
+.error {
+    color: red;
+    font-size: 12px;
+}

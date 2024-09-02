@@ -1,0 +1,34 @@
+.rbc-calendar{
+    padding: 10px;
+    border-radius: 20px;
+    background-color: white;
+
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1), 0 6px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+}
+.rbc-calendar:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2), 0 14px 28px rgba(0, 0, 0, 0.2);
+}
+.rbc-month-view{
+    border-radius: 20px;
+}
+.center{
+    margin: 0 auto;
+}
+/*Tamaño de letra de nuestro calendario*/
+.rbc-toolbar{
+    font-size: 12px;
+}
+.rbc-header{
+    font-size: 11.5px;
+}
+.rbc-button-link{
+    font-size: 11px;
+}
+.rbc-event-content{
+    font-size: 11px;
+}
